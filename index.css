@@ -1,0 +1,108 @@
+#google-logo {
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#nav-list {
+    font-family: Arial;
+    list-style-type: none;
+    font-size: 12px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 7.5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover {
+    text-decoration-line: underline;
+}
+
+.float-right {
+    float: right;
+    margin-right: 60px;
+
+}
+
+.float-left {
+    float: left;
+    margin-left: -20px;
+}
+
+#sign-in {
+    background-color: rgb(66, 133, 244);
+    border-radius: 3px;
+    padding: 8px 12px;
+    border: 1px solid rgb(66, 133, 244);
+    color: #fff;
+    font-weight: bold;
+}
+
+#search-query {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 37.5%;
+    font-size: 13px;
+    padding: 13px;
+    border-radius:40px;
+    border: 1px solid #D3D3D3;
+}
+
+#search-query:hover {
+    box-shadow: 0.5px 0.5px 3px 1.5px #D3D3D3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 10px;
+    background: rgb(240,240,240);
+    border: 1px solid rgb(240,240,240);
+    color: rgb(77,80,86)
+}
+
+#button:hover {
+    border: 1px solid rgb(194, 194, 194);
+}
+
+#footer-list {
+    font-family: Arial;
+    list-style-type: none;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    background: rgb(230, 230,230);
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
+
+footer div li {
+    color: #5F6368;
+}
+
+/* This is
+a multi-line
+comment 
+
+
+
+*/
